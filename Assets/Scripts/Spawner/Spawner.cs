@@ -73,13 +73,13 @@ public class Spawner : ObjectPool
             _secondsBetweenSpawn -= _secondsBetweenSpawnDecrease;
             _secondsBetweenSpawn = Mathf.Max(_secondsBetweenSpawn, _minSecondsBetweenSpawn);
         }
+        AddWave(index);
     }
 
     public void NextWave()
     {
         SetWave(++_currentWaveNumber);
         _spawned = 0;
-        AddWave(_currentWaveNumber);
     }
 
     private void OnEnemyDying(Enemy enemy)
