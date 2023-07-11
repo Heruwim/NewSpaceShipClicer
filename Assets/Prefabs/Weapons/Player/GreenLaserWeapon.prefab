@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _label: Green Laser
-  _price: 5
+  _price: 105
   _icon: {fileID: -1560087220, guid: 0ab3679bb71398540916b33b88c722cc, type: 3}
   _isBuyed: 0
   Bullet: {fileID: 4878018576904153820, guid: da46bfbdb988fe44698b161744deb1f1, type: 3}

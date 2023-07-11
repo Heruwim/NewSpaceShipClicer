@@ -10,12 +10,13 @@ public class Menu : MonoBehaviour
     
     private PlayerInput _input;
 
-    /*private void Start()
+    private void Start()
     {
-        InsterstitialAds.S.LoadAd();        
-        StartCoroutine(LoadInsterstitialAds());
-        
-    }*/
+        // InsterstitialAds.S.LoadAd();        
+        // StartCoroutine(LoadInsterstitialAds());
+        if(_shop != null)
+            _shop.ResetWeaponsState();
+    }
 
     public void Initialize(PlayerInput input)
     {
@@ -52,7 +53,6 @@ public class Menu : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("Game");
-        _shop.ResetWeaponsState();
     }
     public void ReturnToMainMenu()
     {

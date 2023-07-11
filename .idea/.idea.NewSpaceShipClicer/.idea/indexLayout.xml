@@ -35,7 +35,7 @@
       <Path>2_BurstDebugInformation_DoNotShip</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Temp</Path>
+      <Path>SpaceShipClicer_BurstDebugInformation_DoNotShip</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
