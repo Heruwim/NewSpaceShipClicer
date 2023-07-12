@@ -211,7 +211,7 @@ MonoBehaviour:
   _health: 3
   _reward: 1
   _score: 25
-  _enemyWeapon: {fileID: 2786510257196720450, guid: 78c14d177903a664e86e7a316f34c957, type: 3}
+  _enemyWeapon: {fileID: 7883395441864370425, guid: f7f9ca08093ec2249b78d437a00a2b53, type: 3}
   _enemyShootPoint: {fileID: 7605063524862542894}
   _shootSound: {fileID: 1126233555146306988}
 --- !u!114 &9148914040357785405

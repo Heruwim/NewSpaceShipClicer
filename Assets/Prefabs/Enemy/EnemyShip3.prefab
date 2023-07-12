@@ -169,7 +169,7 @@ Transform:
   - {fileID: 8147853902045213104}
   - {fileID: 2988151394861172476}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &4394231692401988266
 Animator:
@@ -328,7 +328,7 @@ MonoBehaviour:
   _health: 5
   _reward: 1
   _score: 35
-  _enemyWeapon: {fileID: 2786510257196720450, guid: 78c14d177903a664e86e7a316f34c957, type: 3}
+  _enemyWeapon: {fileID: 1583818298118859057, guid: ae1cc23672ed42f4ca2e70493ef27468, type: 3}
   _enemyShootPoint: {fileID: 8147853902045213104}
   _shootSound: {fileID: 1805916397447484406}
 --- !u!114 &396703203700863849
