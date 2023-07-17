@@ -20,14 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae3617c-2d8e-452e-bddb-c29b10d5137d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpaceShipClicer_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NewSpaceShipClicer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewSpaceShipClicer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewSpaceShipClicer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewSpaceShipClicer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewSpaceShipClicer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewSpaceShipClicer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Player/GreenLaserWeapon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Player/GreenLaserWeapon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Player/YellowPlasmaWeapon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Player/YellowPlasmaWeapon.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,17 +41,22 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/WaveCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SpaceShipClicker/Assets/Scripts/Canvas/CanvasSwitcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.1/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ads@4.4.2/Runtime/Advertisement/Platform/Editor/EditorPlatform.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Shop/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/WaveCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ads/AdsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ads/AdsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ads/InsterstitialAds.cs" />
       </list>
     </option>
   </component>
@@ -121,6 +127,10 @@
       <workItem from="1689065157733" duration="1261000" />
       <workItem from="1689068388411" duration="3729000" />
       <workItem from="1689080867581" duration="2664000" />
+      <workItem from="1689586173426" duration="3105000" />
+      <workItem from="1689597171063" duration="708000" />
+      <workItem from="1689597919979" duration="1983000" />
+      <workItem from="1689602022668" duration="473000" />
     </task>
     <task id="LOCAL-00001" summary="Added scripts responsible for sound">
       <created>1689007866343</created>

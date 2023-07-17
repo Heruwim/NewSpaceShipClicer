@@ -5,15 +5,15 @@ using System.Collections;
 
 public class Menu : MonoBehaviour
 {
-    //[SerializeField] private float _persentShowAds;
+    [SerializeField] private float _persentShowAds;
     [SerializeField] private Shop _shop;
     
     private PlayerInput _input;
 
     private void Start()
     {
-        // InsterstitialAds.S.LoadAd();        
-        // StartCoroutine(LoadInsterstitialAds());
+        InsterstitialAds.S.LoadAd();        
+        StartCoroutine(LoadInsterstitialAds());
         if(_shop != null)
             _shop.ResetWeaponsState();
     }
@@ -60,18 +60,18 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }   
 
-    /*private IEnumerator LoadInsterstitialAds()
+    private IEnumerator LoadInsterstitialAds()
     {
         yield return new WaitForSeconds(0.5f);
         ShowingAds();
-    }*/
-    //private void ShowingAds()
-    //{
-    //    float tempPersent = Random.Range(0f, 1f);
+    }
+    private void ShowingAds()
+    {
+        float tempPersent = Random.Range(0f, 1f);
 
-    //    if (tempPersent > _persentShowAds)
-    //    {
-    //        InsterstitialAds.S.ShowAd();
-    //    }
-    //}
+        if (tempPersent > _persentShowAds)
+        {
+            InsterstitialAds.S.ShowAd();
+        }
+    }
 }

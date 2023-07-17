@@ -242,6 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52969ed2770cf34d98ed9ec4a6bfd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _persentShowAds: 0
   _shop: {fileID: 0}
 --- !u!1 &25300911
 GameObject:
@@ -1544,6 +1545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52969ed2770cf34d98ed9ec4a6bfd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _persentShowAds: 0
   _shop: {fileID: 0}
 --- !u!114 &340011962
 MonoBehaviour:
@@ -3969,6 +3971,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019009113}
   m_CullTransparentMesh: 1
+--- !u!1 &1042474396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1042474398}
+  - component: {fileID: 1042474397}
+  - component: {fileID: 1042474399}
+  m_Layer: 0
+  m_Name: DisplayADS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1042474397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042474396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202206c1f6a8adc458820b894d18925a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _testMod: 1
+  _androidGameId: 5350439
+  _iOsGameId: 5350438
+--- !u!4 &1042474398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042474396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4820933, y: -0.13824448, z: -0.023966372}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1042474399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042474396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a24297ff99cd7841a7c84c69fbdf4be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _androidAdUnitId: Interstitial_Android
+  _iOSAdUnitId: Interstitial_iOS
 --- !u!1 &1047081146
 GameObject:
   m_ObjectHideFlags: 0

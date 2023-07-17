@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
         ChangeWeapon(_weapons[_currentWeaponNumber]);
         _currentHealth = _health;
         _animator = GetComponent<Animator>();
-        //InsterstitialAds.S.LoadAd();
+        InsterstitialAds.S.LoadAd();
     }
 
     public void Shoot()
@@ -65,13 +65,13 @@ public class Player : MonoBehaviour
         {
             _menu169.OpenPanel(_gameOverPanel169);
 
-            //ShowingAds();
+            ShowingAds();
         }
         else
         {
             _menu189.OpenPanel(_gameOverPanel189);
 
-            //ShowingAds();
+            ShowingAds();
         }
     }
 
@@ -124,13 +124,13 @@ public class Player : MonoBehaviour
         return Mathf.Approximately(aspectRatio, 16f / 9f);
     }
 
-    //private void ShowingAds()
-    //{
-    //    float tempPersent = Random.Range(0f, 1f);
+    private void ShowingAds()
+    {
+        float tempPersent = Random.Range(0f, 1f);
 
-    //    if (tempPersent > _persentShowAds)
-    //    {
-    //        InsterstitialAds.S.ShowAd();
-    //    }
-    //}
+        if (tempPersent > _persentShowAds)
+        {
+            InsterstitialAds.S.ShowAd();
+        }
+    }
 }
