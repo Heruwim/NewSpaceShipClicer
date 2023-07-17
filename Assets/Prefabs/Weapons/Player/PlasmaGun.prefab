@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2723514383308482090
 MonoBehaviour:
@@ -46,6 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _label: Plasma Gun
   _price: 0
-  _icon: {fileID: -803860107, guid: 0ab3679bb71398540916b33b88c722cc, type: 3}
+  _icon: {fileID: -1306528550, guid: 361f1d31ab9fd2a43a270bf4ef7b3c23, type: 3}
   _isBuyed: 1
-  Bullet: {fileID: 7810199820113812093, guid: 09fec5ecb646cbc46a800a352e55a200, type: 3}
+  Bullet: {fileID: 2818431296733463674, guid: e92a43ff83868fe45a4e5a42cda2abc0, type: 3}

@@ -15312,6 +15312,7 @@ MonoBehaviour:
   - {fileID: 2723514383308482090, guid: 94a00e77f7688234d830cc4cff6ed2c8, type: 3}
   - {fileID: 3524007965038879257, guid: 1592877cc6911d14a94fef58b6cf0e30, type: 3}
   - {fileID: 2417235897893389786, guid: dd92a2275b3ad2f4aa56e8da412eeca0, type: 3}
+  - {fileID: 7877742080472193350, guid: 125a9a709fe928744a8ec95b1b634aa4, type: 3}
   _player: {fileID: 1249075741}
   _template: {fileID: 8045627923205284866, guid: 671c9164e30171c4f9d18d74efe2a89a, type: 3}
   _itemContainer: {fileID: 624903036}
@@ -25110,6 +25111,7 @@ MonoBehaviour:
   - {fileID: 2723514383308482090, guid: 94a00e77f7688234d830cc4cff6ed2c8, type: 3}
   - {fileID: 3524007965038879257, guid: 1592877cc6911d14a94fef58b6cf0e30, type: 3}
   - {fileID: 2417235897893389786, guid: dd92a2275b3ad2f4aa56e8da412eeca0, type: 3}
+  - {fileID: 7877742080472193350, guid: 125a9a709fe928744a8ec95b1b634aa4, type: 3}
   _player: {fileID: 1249075741}
   _template: {fileID: 8045627923205284866, guid: 671c9164e30171c4f9d18d74efe2a89a, type: 3}
   _itemContainer: {fileID: 501226531}
